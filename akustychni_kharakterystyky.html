@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAPhonetic site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header class="header" style="background-color: rgb(5 193 247);">
+      <div class="container container-mobile wrap-mobile-nav">
+        <nav class="top-nav header-container">
+          <div class="nav-container">
+            <a href="./index.html" class="top-logo link"><span class="logo-web">Ua</span>Phonetic</a>
+            
+            <div>
+              <span class="top-titel">Український фонетичний cайт</span>
+            </div>
+          </div>
+        </nav>
+
+        <div>
+          <ul class="top-menu list">
+            <li class="menu-item"><a href="./index.html" class="link current">Головна</a></li>
+            <li class="menu-item"><a class="link" href="./fonetic.html">Фонетика української мови</a></li>
+            <li class="menu-item"><a class="link" href="./fonetics_exercises.html">Фонетичні вправи</a></li>
+          </ul>
+        </div>
+
+        <button type="button" class="menu-open-btn js-open-menu" data-menu-open>
+          <svg class="icon-menu-btn" width="32px" height="21px">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!--~~~~~~~~~~~~ MOBILE MENU ~~~~~~~~~~~~~~~~-->
+      
+      <div class="mob-menu js-menu-container is-hidden" data-menu>
+        <div class="container-mob-menu">
+          <div>
+            <button type="button" class="modal-close-btn js-close-menu" data-menu-close>
+              <svg class="close-mob-button-icon" width="8px" height="8px">
+                <use href="./images/icons.svg#icon-close-button"></use>
+              </svg>
+            </button>
+              
+            <nav>
+              <ul class="mob-menu-list list">
+                <li class="mob-menu-item"><a class ="mob-menu-link link current" href="./index.html">Studio</a></li>
+                <li class="mob-menu-item"><a class ="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                <li class="mob-menu-item"><a class ="mob-menu-link link" href="./contacts.html">Contacts</a></li>
+              </ul>
+            </nav> 
+          </div> 
+    
+          <div>
+            <address class="mob-address">
+              <ul class="mob-top-contacts list">
+                <li class="mob-address-item">
+                  <a class="mob-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                  <li class="mob-address-item">
+                  <a class="mob-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+              </ul>
+            </address>
+              
+            <ul class="mob-soc-list list">
+              <li class="mob-soc-items">
+                <a href="https://www.instagram.com" class="mob-soc-link link" target="_blank" rel="noreferrer noopener">
+                  <svg class="soc-icons" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-items">
+                <a
+                  href="https://twitter.com/"
+                  class="mob-soc-link link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <svg class="soc-icons" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-items">
+                <a
+                  href="https://www.facebook.com/"
+                  class="mob-soc-link link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <svg class="soc-icons" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-items">
+                <a
+                  href="https://linkedin.com/"
+                  class="mob-soc-link link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <svg class="soc-icons" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+   
+    <footer class="footer section">
+        <div class="container footer-container  footer-tablet">
+          <div class="text-footer">
+            <a href="./index.html" class="footer-logo link footer-link"><span class="logo-web">UA</span>Phonetic</a>
+            <p class="footer-text">
+              Курсовий проект виконала:<br>
+              Томашева Катерина.
+            </p>
+          </div>
+  
+          <div class="">
+            <ul class="list ourteam-list">
+              <li class="card">
+                <img
+                  class="ourteam-img"
+                  
+                  src="./images/tomasheva-kateryna.jpg"
+                  alt="product designer"
+                  width="100"
+                  height="100"
+                />
+          </div>
+  
+          <div class="socmedia">
+            <p class="socmedia-text">
+              Приєднуйся
+            </p>
+            <ul class="soclist list">
+              <li class="soclist-item">
+                <a href="https://instagram.com/katyatomasheva?igshid=MzRlODBiNWFlZA==" class="soclink link">
+                  <svg class="soclink-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soclist-item">
+                <a href="https://www.facebook.com/profile.php?id=100012267672290" class="soclink link">
+                  <svg class="soclink-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+    </footer>
+    </body>
+</html>
