@@ -412,8 +412,12 @@ body {
   cursor: pointer;
 }
 
+.gallery-images {
+  margin-left: auto;
+  margin-right: auto;
+}
 .gallery-items {
-  flex-basis: calc((100% - 2 * 40px) / 2);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .gallery-top-wrapp {
   position: relative;
@@ -462,7 +466,7 @@ body {
 .gallery-text {
   color: var(--text);
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 /*------- Modal window -------*/
@@ -911,23 +915,7 @@ body {
     gap: 24px;
     row-gap: 0;
   }
-  .footer-form {
-    display: flex;
-  }
-  .footer-subscribe {
-    text-align: left;
-    margin-left: 0;
-  }
-  .footer-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 165px;
-    height: 40px;
-  }
-  .footer-input {
-    width: 264px;
-  }
+ 
 }
 
 /* ============ @MEDIA  1200px ============ */
@@ -1010,28 +998,14 @@ body {
     flex-wrap: nowrap
   }
 
-  
-
-  .footer-btn {
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .footer-subscribe {
-    margin-left: auto;
-  }
-
   .footer-container {
     text-align: left;
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
-    /* align-items: baseline; */
   }
-  
-  /* .text-footer {
-    margin-right: auto;
-  } */
+
   .socmedia-text, .subscribe-text {
     margin-top: 0;
   }
