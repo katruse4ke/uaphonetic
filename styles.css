@@ -271,7 +271,7 @@ body {
 .speech-app {
   background-color: #dbdeff;
 }
-.speech-app > h2, .titel-top {
+.speech-app > h2 {
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -377,7 +377,7 @@ body {
   display: flex; 
   justify-content: center;
   margin-bottom: 72px;
-  gap: 24px;
+  gap: 20px;
 }
 .filters-btn {
   background-color: var(--primary);
@@ -413,7 +413,7 @@ body {
 }
 
 .gallery-items {
-  flex-basis: calc((100% - 2 * 24px) / 3);
+  flex-basis: calc((100% - 2 * 40px) / 2);
 }
 .gallery-top-wrapp {
   position: relative;
@@ -426,7 +426,7 @@ body {
   left: 0;
   height: 100%;
   padding: 40px 32px;
-  font-size: 22px;
+  font-size: 18px;
 
   color: var(--light);
   line-height: 1.5;
