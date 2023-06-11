@@ -374,7 +374,6 @@ body {
   padding-bottom: 120px;
 }
 .filters-list {
-  /* min-width: 586px; */
   display: flex; 
   justify-content: center;
   margin-bottom: 72px;
@@ -427,6 +426,7 @@ body {
   left: 0;
   height: 100%;
   padding: 40px 32px;
+  font-size: 22px;
 
   color: var(--light);
   line-height: 1.5;
@@ -462,6 +462,7 @@ body {
 .gallery-text {
   color: var(--text);
   line-height: 1.5;
+  font-size: 24px;
 }
 
 /*------- Modal window -------*/
@@ -674,10 +675,6 @@ body {
     min-width: 320px;
   }
 
-  /* .ourteam-list {
-    margin: 0 50px;
-  } */
-
   .features-titel, .custom-titel
   .cards > h3,
   .gallery-list h2 {
@@ -882,10 +879,10 @@ body {
   .features-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    column-gap: 20px;
   }
   .features-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 20px) / 3);
   }
 
   .ourteam-list {
@@ -1050,6 +1047,7 @@ body {
  .gallery-list {
   display: flex; 
   flex-wrap: wrap;
+  justify-content: center;
   row-gap: 48px;
   column-gap: 24px;
 }
