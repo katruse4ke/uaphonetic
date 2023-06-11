@@ -324,8 +324,8 @@ body {
 /*Footer*/
 .footer {
   background-color: var(--second-primary); 
-  padding-top: 100px;
-  padding-bottom: 100px; 
+  padding-top: 20px;
+  padding-bottom: 20px; 
 }
 .footer-container {
   text-align: center;
@@ -417,13 +417,42 @@ body {
   margin-right: auto;
 }
 .gallery-items {
+  flex-basis: calc((100% - 2 * 40px) / 2);
+}
+.gallery-items-golosni {
   flex-basis: calc((100% - 2 * 24px) / 3);
+
 }
 .gallery-top-wrapp {
   position: relative;
 
   overflow: hidden;
 }
+.btn-wrapp {
+  display: flex;
+  justify-content: center;
+}
+.phonetic-btn-first-btn {
+  border-radius: 50px 50px 0px 50px;
+  padding: 50px;
+  font-size: 28px;
+}
+.phonetic-btn-second-btn {
+  border-radius: 50px 50px 50px 0px;
+  padding: 50px;
+  font-size: 28px;
+}
+.phonetic-btn-fourth-btn {
+  border-radius: 0px 50px 50px 50px;
+  padding: 50px;
+  font-size: 28px;
+}
+.phonetic-btn-third-btn {
+  border-radius: 50px 0px 50px 50px;
+  padding: 50px;
+  font-size: 28px;
+}
+
 .text-animation {
   position: absolute;
   top: 0;
@@ -449,6 +478,7 @@ body {
 
   border: 1px solid var(--accent);
   border-top: none;
+  height: 200px;
 }
 .gallery-footer > p {
   margin-top: 8px;;
@@ -889,7 +919,7 @@ body {
     width: calc((100% - 20px) / 3);
   }
 
-  .ourteam-list {
+  .autor-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
