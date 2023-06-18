@@ -452,6 +452,9 @@ body {
   padding: 50px;
   font-size: 28px;
 }
+.btn-whidth {
+  width: 144px;
+}
 
 .text-animation {
   position: absolute;
